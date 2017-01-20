@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Gary Lemon</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Open+Sans+Condensed:300,300i,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/colorbox.css" rel="stylesheet">
+        <link href="css/hover-effects.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <!--<script src="js/scripts.js"></script>  -->
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <section id="header">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-md-10">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">GARY LEMON</a>
+                                <button type="button" data-toggle="modal" data-target="#myModal" class="order btn btn-default navbar-btn">Оставить заявку</button>
+                            </div>
+
+
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="#">Главная<span class="sr-only">(current)</span></a></li>
+                                    <li><a href="#">Услуги</a></li>
+                                    <li><a href="#">iBand</a></li>
+                                    <li><a href="#">Портфолио</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                    <li><a href="#">Партнеры</a></li>
+                                    <li><a href="#">Мероприятия</a></li>
+
+                                </ul>
+                            </div><!-- /.navbar-collapse -->
+
+                        </div>
+
+                        <div class="col-md-2 col-sm-2  hidden-xs">
+                            <button type="button" data-toggle="modal" data-target="#myModal" class="order btn btn-default navbar-btn">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div><!-- /.container-fluid -->
+            </nav>
+            <div class="main-header-lemon">
+                <div class="header-name">
+                    <h1>Gary Lemon</h1>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-2 col-xs-offset-5 name-underline"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <button type="button" class="name-sour order btn btn-default navbar-btn">Ваш праздник не будет кислым</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="modal-window">
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+
+                    <div class="modal-content">
+                        <div class="garik">
+                        </div>
+                        <div class="modal-body">
+
+
+
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span class="fa-stack">
+                                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                  <i class="fa fa-times fa-stack-1x"></i>
+                              </span>
+                          </button>
+
+                            <form id="myForm" role="form" data-toggle="validator" class="garik-form">
+                                <h2>Leave an order</h2>
+                                <div class="form-group">
+                                    <p>Введите ваше имя</p>
+                                    <input type="text" name="name" class="form-control"  placeholder="John"  required />
+                                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                </div>
+                                <div class="form-group">
+                                    <p>Введите Ваш телефон</p>
+                                    <input type="tel" name="name" class="form-control" placeholder="970 111 11 11"  required />
+                                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                </div>
+                                <div class="form-group">
+                                    <p>Введите Ваш телефон</p>
+                                    <textarea class="form-control" id="comment" rows="3" placeholder="Comment"></textarea>
+                                </div>
+                                <button type="submit" class="order btn btn-default">Оставить заявку</button>
+
+                            </form>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+        </section>
+        <section id="occasions" class="section-padding regular-section">
+            <div class="container">
+                <h2>Anchor for any occasion</h2>
+                <div class="row">
+                    <div class="grey-stripe col-xs-6 col-xs-offset-3"></div>
+                </div>
+                <p class="between-stripes">С чем бы ни был связан ваш праздник, он будет незабываемым</p>
+                <div class="row">
+                    <div class="grey-stripe col-xs-2 col-xs-offset-5"></div>
+                </div>
+                <div class="occ-types">
+                    <div class="row">
+                        <div class="col-md-3 col-xs-6">
+                            <a href="">
+                                <div class="occasion">
+                                    <h3>Weddings</h3>
+                                    <div class="light-grey-stripe"></div>
+                                    <div class="occasion-short-desc">
+                                        <p>Мы уже более 10 лет занимаемся организацией различного рода мероприятий. Мы уже более 10 лет занимаемся организацией различного род</p>
+                                    </div>
+                                    <div class="occasion-logo">
+                                        <img src="img/occasion-logo.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <a href="">
+                                <div class="occasion">
+                                    <h3>Weddings</h3>
+                                    <div class="light-grey-stripe"></div>
+                                    <div class="occasion-short-desc">
+                                        <p>Мы уже более 10 лет занимаемся организацией различного рода мероприяти</p>
+                                    </div>
+                                    <div class="occasion-logo">
+                                        <img src="img/occasion-logo.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <a href="">
+                                <div class="occasion">
+                                    <h3>Weddings</h3>
+                                    <div class="light-grey-stripe"></div>
+                                    <div class="occasion-short-desc">
+                                        <p>Мы уже более 10 лет занимаемся организацией различного рода мероприятий. Мы уже более 10 лет занимаемся организацией различного род</p>
+                                    </div>
+                                    <div class="occasion-logo">
+                                        <img src="img/occasion-logo.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <a href="">
+                                <div class="occasion">
+                                    <h3>Weddings</h3>
+                                    <div class="light-grey-stripe"></div>
+                                    <div class="occasion-short-desc">
+                                        <p>Мы уже более 10 лет занимаемся организацией различного рода мероприятий. Мы уже более 10 лет занимаемся организацией различного род.  10 лет занимаемся организацией различного род</p>
+                                    </div>
+                                    <div class="occasion-logo">
+                                        <img src="img/occasion-logo.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="shortly-about" class="section-padding regular-section">
+            <div class="container">
+                <div class="row table">
+                    <div class="col-md-3 table-cell">
+                        <p class="shortly-about-header">Shortly about me</p>
+                    </div>
+                    <!--<div class="col-md-1">
+                        <img src="img/shortly-about-arrow.png" alt="" />
+                    </div>-->
+                    <div class="col-md-5 table-cell">
+                        <div class="shortly-about-text">
+                            <p>Я люблю и умею создавать праздники. Мои мероприятия - это интересная программа, приятные сюрпризы, моменты романтики, много миеха и неповторимые свежие эмоции.</p>
+                            <p>Я люблю и умею создавать праздники. Мои мероприятия - это интересная программа, приятные сюрпризы, моменты романтики, много миеха и неповторимые свежие эмоции. Я люблю и умею создавать праздники. Мои мероприятия - это интересная программа, приятные сюрпризы, моменты романтики, много миеха и неповторимые свежие эмоции.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <section id="portfolio-main" class="section-padding regular-section">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <div class="row">
+                    <div class="grey-stripe col-xs-6 col-xs-offset-3"></div>
+                </div>
+                <p class="between-stripes">Создаем антураж вашего праздника. Задаем верный вектор направления.</p>
+                <div class="row">
+                    <div class="grey-stripe col-xs-2 col-xs-offset-5"></div>
+                </div>
+
+
+
+                <div class="colorbox-gallery">
+
+                    <div class="grid video">
+                		<figure class="effect-bubba">
+                            <img src="img/pic3.jpg" alt="" />
+                            <a class="colorbox-video" href="https://player.vimeo.com/video/173245692">
+                    			<figcaption>
+                    				<p>Play video</p>
+                    			</figcaption>
+                                <div class="figcaption2"></div>
+                                <div class="figcaption3"></div>
+                            </a>
+                		</figure>
+                	</div>
+                    <div class="grid">
+                		<figure class="effect-bubba">
+                            <img src="img/pic2.jpg" alt="" />
+                            <a class="colorbox-group" href="img/pic2.jpg">
+                    			<figcaption>
+                    				<p>Play video</p>
+                    			</figcaption>
+                                <div class="figcaption2"></div>
+                                <div class="figcaption3"></div>
+                            </a>
+                		</figure>
+                	</div>
+                    <div class="grid ">
+                		<figure class="effect-bubba">
+                            <img src="img/pic1.jpg" alt="" />
+                            <a class="colorbox-group" href="img/pic1.jpg">
+                    			<figcaption>
+                    				<p>Play video</p>
+                    			</figcaption>
+                                <div class="figcaption2"></div>
+                                <div class="figcaption3"></div>
+                            </a>
+                		</figure>
+                	</div>
+                    <div class="grid ">
+                		<figure class="effect-bubba">
+                            <img src="img/pic3.jpg" alt="" />
+                            <a class="colorbox-group" href="img/pic3.jpg">
+                    			<figcaption>
+                    				<p>Play video</p>
+                    			</figcaption>
+                                <div class="figcaption2"></div>
+                                <div class="figcaption3"></div>
+                            </a>
+                		</figure>
+                	</div>
+                    <div class="grid ">
+                		<figure class="effect-bubba">
+                            <img src="img/pic2.jpg" alt="" />
+                            <a class="colorbox-group" href="img/pic2.jpg">
+                    			<figcaption>
+                    				<p>Play video</p>
+                    			</figcaption>
+                                <div class="figcaption2"></div>
+                                <div class="figcaption3"></div>
+                            </a>
+                		</figure>
+                	</div>
+                    <div class="grid video">
+                		<figure class="effect-bubba">
+                            <img src="img/pic1.jpg" alt="" />
+                            <a class="colorbox-group" href="img/pic1.jpg">
+                    			<figcaption>
+                    				<p>Play video</p>
+                    			</figcaption>
+                                <div class="figcaption2"></div>
+                                <div class="figcaption3"></div>
+                            </a>
+                		</figure>
+                	</div>
+                    <div class="grid ">
+                		<figure class="effect-bubba">
+                            <img src="img/pic3.jpg" alt="" />
+                            <a class="colorbox-group" href="img/pic3.jpg">
+                    			<figcaption>
+                    				<p>Play video</p>
+                    			</figcaption>
+                                <div class="figcaption2"></div>
+                                <div class="figcaption3"></div>
+                            </a>
+                		</figure>
+                	</div>
+                    <div class="grid ">
+                		<figure class="effect-bubba">
+                            <img src="img/pic2.jpg" alt="" />
+                            <a class="colorbox-group" href="img/pic2.jpg">
+                    			<figcaption>
+                    				<p>Play video</p>
+                    			</figcaption>
+                                <div class="figcaption2"></div>
+                                <div class="figcaption3"></div>
+                            </a>
+                		</figure>
+                	</div>
+                    <div class="grid video">
+                		<figure class="effect-bubba">
+                            <img src="img/pic1.jpg" alt="" />
+                            <a class="colorbox-group" href="img/pic1.jpg">
+                    			<figcaption>
+                    				<p>Play video</p>
+                    			</figcaption>
+                                <div class="figcaption2"></div>
+                                <div class="figcaption3"></div>
+                            </a>
+                		</figure>
+                	</div>
+                </div>
+                <div class="look-all-occasions">
+                    <a href="#">Смотреть все наши праздники</a>
+                </div>
+                <h2>Future events</h2>
+                <div class="row">
+                    <div class="grey-stripe col-xs-6 col-xs-offset-3"></div>
+                </div>
+                <div class="row main-future-occ-block">
+                    <div class="main-future-occ col-md-6">
+                        <a href="">
+                            <div class="future-occ-img">
+                                <img src="img/main-occasion-preview.png" alt="" />
+
+                            </div>
+                        </a>
+                        <div class="future-occ-info">
+                            <a href="">
+                                <h3>Back to School</h3>
+                            </a>
+                            <p class="occ-date">Novermber, 13</p>
+                            <div class="light-grey-stripe"></div>
+                            <p class="fut-occ-text">Мы решили вновь окунуть вас в школьные времена! Вспомним, как классно было играть на переменах! Как девочки ненавидили физру. Забронируй столик прямо сейчас!</p>
+                        </div>
+                    </div>
+                    <div class="main-future-occ col-md-6">
+                        <a href="">
+                            <div class="future-occ-img">
+                                <img src="img/main-occasion-preview.png" alt="" />
+
+                            </div>
+                        </a>
+                        <div class="future-occ-info">
+                            <a href="">
+                                <h3>Back to School</h3>
+                            </a>
+                            <p class="occ-date">Novermber, 13</p>
+                            <div class="light-grey-stripe"></div>
+                            <p class="fut-occ-text">Мы решили вновь окунуть вас в школьные времена! Мы решили вновь окунуть вас в школьные времена! Вспомним, как классно было играть на переменах! Как девочки ненавидили физру. Забронируй столик прямо сейчас!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="look-all-occasions">
+                    <a href="#">Все мероприятия</a>
+                </div>
+            </div>
+         </section>
+
+         <section id="why-we" class="section-padding regular-section">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <div class="row">
+                    <div class="grey-stripe col-xs-6 col-xs-offset-3"></div>
+                </div>
+                <p class="between-stripes">Создаем антураж вашего праздника. Задаем верный вектор направления.</p>
+                <div class="row">
+                    <div class="grey-stripe col-xs-2 col-xs-offset-5"></div>
+                </div>
+
+                <div class="why-we-block">
+                    <div class="row">
+                        <div class="why-we-item col-sm-3 col-xs-6">
+                            <div class="why-we-img">
+                                <img src="img/why-we-pic.jpg" alt="" />
+                            </div>
+                            <p>Нестандартные решения и индивидуальный подход</p>
+                        </div>
+                        <div class="why-we-item col-sm-3 col-xs-6">
+                            <div class="why-we-img">
+                                <img src="img/why-we-pic.jpg" alt="" />
+                            </div>
+                            <p>Нестандартные решения и индивидуальный подход</p>
+                        </div>
+                        <div class="why-we-item col-sm-3 col-xs-6">
+                            <div class="why-we-img">
+                                <img src="img/why-we-pic.jpg" alt="" />
+                            </div>
+                            <p>Нестандартные решения и индивидуальный подход</p>
+                        </div>
+                        <div class="why-we-item col-sm-3 col-xs-6">
+                            <div class="why-we-img">
+                                <img src="img/why-we-pic.jpg" alt="" />
+                            </div>
+                            <p>Нестандартные решения и индивидуальный подход</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+         </section>
+
+         <section id="testimonials" class="section-padding regular-section">
+            <div class="container">
+                <h2>Testimonials</h2>
+                <div class="row">
+                    <div class="grey-stripe col-xs-6 col-xs-offset-3"></div>
+                </div>
+                <div class="reviews-carousel">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="testimonial-item row">
+                                    <div class="col-sm-offset-1 col-sm-3">
+                                        <div class="testimonial-img">
+                                            <img src="img/testimonials-pic.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h3>Olga and Ivan</h3>
+                                        <p class="testimonial-date">06.06.2015</p>
+                                        <p>Игорь, спасибо тебе огромное от нас с Ваней и от всех гостей за твой позитив, энергию и взрыв эмоций на нашей свадьбе!</p>
+                                        <p>Ни один гость не остался без внимания, благодаря тебе! Ты полностью, на 100% знал наши предпочтения и угадал наши интересы, чем умело пользовался на нашем празднике! Мы ни на секунду не пожалели, что выбрали тебя, ты стал не только замечательным ведущим, но и таким прекрасным другом семьи!</p>
+                                        <p>ГАРИК ЛИМОН САМЫЙ ЛУЧШИЙ!!!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimonial-item row">
+                                    <div class="col-sm-offset-1 col-sm-3">
+                                        <div class="testimonial-img">
+                                            <img src="img/testimonials-pic2.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h3>Olga and Ivan</h3>
+                                        <p class="testimonial-date">06.06.2015</p>
+                                        <p>Игорь, спасибо тебе огромное от нас с Ваней и от всех гостей за твой позитив, энергию и взрыв эмоций на нашей свадьбе!</p>
+                                        <p>ГАРИК ЛИМОН САМЫЙ ЛУЧШИЙ!!!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimonial-item row">
+                                    <div class="col-sm-offset-1 col-sm-3">
+                                        <div class="testimonial-img">
+                                            <img src="img/testimonials-pic3.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <h3>Olga and Ivan</h3>
+                                        <p class="testimonial-date">06.06.2015</p>
+                                        <p>Ни один гость не остался без внимания, благодаря тебе! Ты полностью, на 100% знал наши предпочтения и угадал наши интересы, чем умело пользовался на нашем празднике! Мы ни на секунду не пожалели, что выбрали тебя, ты стал не только замечательным ведущим, но и таким прекрасным другом семьи!</p>
+                                        <p>ГАРИК ЛИМОН САМЫЙ ЛУЧШИЙ!!!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <div></div>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <div></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <section id="iband-main" class="section-padding regular-section">
+            <div class="container">
+                <h2>Iband creative group</h2>
+                <div class="row">
+                    <div class="grey-stripe col-xs-6 col-xs-offset-3"></div>
+                </div>
+                <p class="between-stripes">Наша команда создаст незабываемый праздник, который останется в вашей памяти навсегда.</p>
+                <div class="row">
+                    <div class="grey-stripe col-xs-2 col-xs-offset-5"></div>
+                </div>
+                <div class="iband-group-block row">
+                    <div class="col-xs-4 col-md-2 iband-member">
+                        <div class="iband-member-face">
+                            <img src="img/lemon-ebalo.jpg" alt="" />
+                        </div>
+                        <p class="iband-rank">Ведущий</p>
+                        <p class="iband-stars">***</p>
+                        <p class="iband-name">Гарик Лимон</p>
+                    </div>
+                    <div class="col-xs-4 col-md-2 iband-member">
+                        <div class="iband-member-face">
+                            <img src="img/lemon-ebalo.jpg" alt="" />
+                        </div>
+                        <p class="iband-rank">Ведущий</p>
+                        <p class="iband-stars">***</p>
+                        <p class="iband-name">Гарик Лимон</p>
+                    </div>
+                    <div class="col-xs-4 col-md-2 iband-member">
+                        <div class="iband-member-face">
+                            <img src="img/lemon-ebalo.jpg" alt="" />
+                        </div>
+                        <p class="iband-rank">Ведущий</p>
+                        <p class="iband-stars">***</p>
+                        <p class="iband-name">Гарик Лимон</p>
+                    </div>
+                    <div class="col-xs-4 col-md-2 iband-member">
+                        <div class="iband-member-face">
+                            <img src="img/lemon-ebalo.jpg" alt="" />
+                        </div>
+                        <p class="iband-rank">Ведущий</p>
+                        <p class="iband-stars">***</p>
+                        <p class="iband-name">Гарик Лимон</p>
+                    </div>
+                    <div class="col-xs-4 col-md-2 iband-member">
+                        <div class="iband-member-face">
+                            <img src="img/lemon-ebalo.jpg" alt="" />
+                        </div>
+                        <p class="iband-rank">Ведущий</p>
+                        <p class="iband-stars">***</p>
+                        <p class="iband-name">Гарик Лимон</p>
+                    </div>
+                    <div class="col-xs-4 col-md-2 iband-member">
+                        <div class="iband-member-face">
+                            <img src="img/lemon-ebalo.jpg" alt="" />
+                        </div>
+                        <p class="iband-rank">Ведущий</p>
+                        <p class="iband-stars">***</p>
+                        <p class="iband-name">Гарик Лимон</p>
+                    </div>
+                </div>
+                <div class="look-all-occasions">
+                    <a href="#">Все наша команда</a>
+                </div>
+            </div>
+         </section>
+
+         <section id="footer" class="section-padding regular-section">
+            <div class="footer-block container">
+                <div class="col-xs-3 footer-item">
+                    <p><span class="footer-item-name">Phone</span>  <span>970 889 41 04</span></p>
+                </div>
+                <div class="col-xs-3 footer-item">
+                    <p><span class="footer-item-name">E-mail</span>  <span>glemon@yahoo.com</span></p>
+                </div>
+                <div class="col-xs-3 footer-item">
+                    <ul class="soc-net">
+                        <li>
+                            <a href="">
+                                <img src="img/facebook.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/facebook.jpg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/facebook.jpg" alt="" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-3 footer-item">
+                    <a href="">
+                        <img src="img/fpro.png" alt="" />
+                    </a>
+                </div>
+            </div>
+         </section>
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/validator.min.js"></script>
+        <script src="js/jquery.colorbox-min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

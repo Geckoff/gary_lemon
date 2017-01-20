@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Bodoni';
+  src: url('Bodoni.eot');
+  src: url('Bodoni.woff2') format('woff2'),
+       url('Bodoni.woff') format('woff'),
+       url('Bodoni.ttf') format('truetype'),
+       url('Bodoni.svg#Bodoni') format('svg'),
+       url('Bodoni.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

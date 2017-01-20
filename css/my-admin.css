@@ -1,0 +1,177 @@
+/**
+* portfolio video styles
+**/
+
+.portfolio-video-insert, .portfolio-video-insert table {
+    width: 100%;
+}
+
+.portfolio-video-insert th {
+    text-transform: uppercase;
+    height: 30px;
+    font-size: 16px;
+    border-bottom: 1px solid #eee;
+}
+
+.portfolio-video-insert td {
+    padding: 10px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.portfolio-video-insert button.add-video {
+    margin-top: 10px;
+}
+
+.portfolio-video-insert button.add-video span {
+    line-height: 29px;
+    color: #008531;
+}
+
+.portfolio-video-insert button.delete-video span {
+    line-height: 26px;
+    color: #9E0000;
+}
+
+.portfolio-video-insert .choose-image {
+    float: left;
+    margin-top: 34px;
+}
+
+.portfolio-video-insert .img-container {
+    width: 150px;
+    height: 100px;
+    overflow: hidden;
+    float: right;
+    line-height: 100px;
+}
+
+.portfolio-video-insert .img-container img {
+    width: 100%;
+    vertical-align: middle;
+
+}
+
+.portfolio-video-insert .choose-image-cell {
+    vertical-align: middle;
+    width: 36%;
+    height: 100px;
+}
+
+.portfolio-video-insert .choose-link-cell {
+    width: 50%;
+}
+
+.portfolio-video-insert .choose-link-cell input {
+    width: 89%;
+}
+
+.portfolio-video-insert .delete-cell {
+    text-align: center;
+}
+
+/**
+* main-portfolio admin page styles
+**/
+
+.main-portfolio-table {
+    margin-top: 0;
+}
+
+.main-portfolio-table tr {
+    display: block;
+    width: 41%;
+    float: left;
+    margin-right: 70px;
+}
+
+.main-portfolio-table + h3 {
+    margin-top: 0;
+}
+
+.main-portfolio-table .main-portfolio-picture {
+    height: 90px;
+}
+
+.main-portfolio-table .main-portfolio-picture th,
+.main-portfolio-table .main-portfolio-picture td {
+    display: block;
+    float: left;
+}
+
+.main-portfolio-table .main-portfolio-picture th {
+    width: 21%
+}
+
+.main-portfolio-table .main-portfolio-picture td {
+    width: 71%;
+}
+
+.main-portfolio-table .main-portfolio-picture .choose-image {
+    margin-top: 0;
+}
+
+.main-portfolio-table .main-portfolio-picture .choose-image-cell {
+    width: 100%;
+}
+
+.main-portfolio-table .main-portfolio-picture .img-container {
+    position: relative;
+    top: -33px;
+}
+
+.main-portfolio-table tr:last-of-type{
+    width: 35%;
+    margin-right: 0;
+}
+
+.main-portfolio-table tr:first-of-type{
+    width: 10%;
+}
+
+
+/**
+* Iband Page Styles
+**/
+
+.iband_members_edit table {
+    width: 100%;
+}
+
+.iband_members_edit td {
+    width: 20%;
+}
+
+.iband_members_edit .choose-image {
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+.iband_members_edit .choose-image-cell {
+    width: 30%;
+}
+
+.iband_members_edit .choose-image-cell .img-container {
+    height: 80px;
+    float: right;
+    margin-right: 10px;
+}
+
+.iband_members_edit .choose-image-cell .img-container img {
+    height: 100%;
+}
+
+.iband_members_edit .choose-image-cell button {
+    float: left;
+}
+
+#cfdb-admin  > table:first-child, #cfdb-admin  > table:nth-child(2)  {
+    display: none;
+}
+
+
+
+
+
+
+
+
