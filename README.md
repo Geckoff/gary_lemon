@@ -1,3 +1,3 @@
-Gary Lemon website Wordpress template (php+html+css+js)
+Gary Lemon website Wordpress theme (php+html+css+js)
 
 http://garylemonny.com/
